@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "557941314439",
+    "project_id": "stressmanu-306b2",
+    "storage_bucket": "stressmanu-306b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557941314439:android:e9ea4f4c8ad9d6e7c6b922",
+        "android_client_info": {
+          "package_name": "com.example.healthyman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRsqUKVAETj9IfjX0i5foHOfirTDH53Bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557941314439:android:a67a5878d71bc96fc6b922",
+        "android_client_info": {
+          "package_name": "com.example.stress"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRsqUKVAETj9IfjX0i5foHOfirTDH53Bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

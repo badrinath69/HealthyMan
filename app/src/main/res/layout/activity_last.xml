@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    tools:context=".activities.LastActivity">
+    <LinearLayout
+        android:id="@+id/last_ll"
+        android:visibility="invisible"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+
+            android:layout_margin="10dp"
+            android:id="@+id/dummy2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercise Name :-"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+
+            android:layout_margin="10dp"
+            android:id="@+id/exerciseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercise Name"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:layout_margin="10dp"
+
+            android:id="@+id/exerciseImage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:paddingTop="8dp"/>
+
+
+        <TextView
+
+            android:layout_margin="10dp"
+            android:id="@+id/dummy3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description :-"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_margin="10dp"
+
+            android:id="@+id/exerciseDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Description"
+            />
+        <TextView
+            android:id="@+id/timerText"
+
+            android:layout_margin="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/dummy_ll"
+
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:id="@+id/btn_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pause" />
+
+            <Button
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:id="@+id/btn_resume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resume" />
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/last_pb"
+        android:layout_marginTop="200dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible"
+        ></ProgressBar>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
